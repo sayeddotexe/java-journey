@@ -1,3 +1,4 @@
+
 // Main class of the application
 public class Main {
 
@@ -17,6 +18,14 @@ public class Main {
         System.out.println("Is TextBox enabled? " + box1.isEnabled());
         System.out.println(box1);
 
+        // comparing objects
+
+        var point1 = new Point(1,2);
+        var point2 = new Point(1,2);
+        System.out.println( point1 == point2);
+        System.out.println(point1.equals(point2));
+        System.out.println(point1.hashCode());
+        System.out.println(point2.hashCode());
 
         // upcasting / downcasting
         // Creating a UIControl object directly
@@ -51,5 +60,7 @@ public class Main {
         // This will call the overridden toString() method if available (like in TextBox)
         System.out.println(control);
     }
+
+
 
 }
