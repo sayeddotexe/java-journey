@@ -146,7 +146,3 @@ Welcome to my personal repository for learning and practicing Java. This space i
 - ⏳ CRUD operations with Spring Boot
 - ⏳ Configuration via `.properties` or `.yml`
 - ⏳ Validation using annotations
-
-#### 21. Spring Data JPA
-- ⏳ Hibernate, Entity Relationships
-- ⏳
